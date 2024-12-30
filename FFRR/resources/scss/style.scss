@@ -112,6 +112,7 @@ button {
     margin: 0 auto;
     width: 80%;
     display: block;
+    padding: 10px 0;
 
     border: none;
     outline: none;
@@ -128,6 +129,7 @@ button {
 .btn-small {
     font-size: 0.7em;
     margin-bottom: 1.5em;
+    padding: 10px 0;
 
     @include media-breakpoint-up('md') {
         margin-bottom: 0;

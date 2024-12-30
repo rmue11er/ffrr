@@ -11959,6 +11959,7 @@ button {
   margin: 0 auto;
   width: 80%;
   display: block;
+  padding: 10px 0;
   border: none;
   outline: none;
 }
@@ -11974,6 +11975,7 @@ button:hover {
 .btn-small {
   font-size: 0.7em;
   margin-bottom: 1.5em;
+  padding: 10px 0;
 }
 @media (min-width: 768px) {
   .btn-small {

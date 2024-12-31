@@ -20,7 +20,7 @@ class UnixEpochalypseCountdown {
         };
 
         if (typeof moment === "function") {
-            const later = moment('2025-02-28');
+            const later = moment('2025-03-01');
             const now = moment();
             const diff = moment.duration(later.diff(now));
 

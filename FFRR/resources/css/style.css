@@ -11953,22 +11953,21 @@ h2, .h2 {
   }
 }
 
-button {
+a.btn-small, a.btn-big {
   background: #DF0126;
   color: #fff;
   margin: 0 auto;
   width: 80%;
   display: block;
   padding: 10px 0;
-  border: none;
-  outline: none;
+  text-align: center;
 }
 @media (min-width: 768px) {
-  button {
+  a.btn-small, a.btn-big {
     width: 40%;
   }
 }
-button:hover {
+a.btn-small:hover, a.btn-big:hover {
   background: rgb(172.2276785714, 0.7723214286, 29.3482142857);
 }
 
@@ -11981,6 +11980,11 @@ button:hover {
   .btn-small {
     margin-bottom: 0;
   }
+}
+
+.btn-disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
 }
 
 .logo {
@@ -12056,7 +12060,8 @@ footer {
   }
 }
 
-button,
+a.btn-big,
+a.btn-small,
 footer,
 h2,
 .h2,

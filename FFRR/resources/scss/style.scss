@@ -106,16 +106,14 @@ h2 {
     }
 }
 
-button {
+a.btn-small, a.btn-big {
     background: #DF0126;
     color: #fff;
     margin: 0 auto;
     width: 80%;
     display: block;
     padding: 10px 0;
-
-    border: none;
-    outline: none;
+    text-align: center;
 
     @include media-breakpoint-up('md') {
         width: 40%;
@@ -134,6 +132,11 @@ button {
     @include media-breakpoint-up('md') {
         margin-bottom: 0;
     }
+}
+
+.btn-disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
 }
 
 .logo {
@@ -209,7 +212,8 @@ footer {
     border: 4px solid #fff;
 }
 
-button,
+a.btn-big,
+a.btn-small,
 footer,
 h2,
 .cd__unit-label,
